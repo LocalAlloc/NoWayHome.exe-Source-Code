@@ -1,0 +1,28 @@
+﻿  NoWayHome.cpp
+  payloads.cpp
+D:\source\repos\NoWayHomeDebug\NoWayHomeDebug\payloads.cpp(310,65): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\source\repos\NoWayHomeDebug\NoWayHomeDebug\payloads.cpp(251,8): warning C4101: 'hWnd': unreferenced local variable
+D:\source\repos\NoWayHomeDebug\NoWayHomeDebug\payloads.cpp(252,8): warning C4101: 'wRect': unreferenced local variable
+D:\source\repos\NoWayHomeDebug\NoWayHomeDebug\payloads.cpp(229,8): warning C4101: 'rekt': unreferenced local variable
+D:\source\repos\NoWayHomeDebug\NoWayHomeDebug\payloads.cpp(253,9): warning C4101: 'wPt': unreferenced local variable
+D:\source\repos\NoWayHomeDebug\NoWayHomeDebug\payloads.cpp(250,7): warning C4101: 'hDsktp': unreferenced local variable
+  registrykeys.cpp
+D:\source\repos\NoWayHomeDebug\NoWayHomeDebug\registrykeys.cpp(140,70): warning C4267: 'argument': conversion from 'size_t' to 'DWORD', possible loss of data
+D:\source\repos\NoWayHomeDebug\NoWayHomeDebug\registrykeys.cpp(146,70): warning C4267: 'argument': conversion from 'size_t' to 'DWORD', possible loss of data
+D:\source\repos\NoWayHomeDebug\NoWayHomeDebug\registrykeys.cpp(138,32): warning C4390: ';': empty controlled statement found; is this the intent?
+D:\source\repos\NoWayHomeDebug\NoWayHomeDebug\registrykeys.cpp(144,32): warning C4390: ';': empty controlled statement found; is this the intent?
+D:\source\repos\NoWayHomeDebug\NoWayHomeDebug\registrykeys.cpp(188,78): warning C4267: 'argument': conversion from 'size_t' to 'DWORD', possible loss of data
+D:\source\repos\NoWayHomeDebug\NoWayHomeDebug\registrykeys.cpp(194,78): warning C4267: 'argument': conversion from 'size_t' to 'DWORD', possible loss of data
+D:\source\repos\NoWayHomeDebug\NoWayHomeDebug\registrykeys.cpp(186,32): warning C4390: ';': empty controlled statement found; is this the intent?
+D:\source\repos\NoWayHomeDebug\NoWayHomeDebug\registrykeys.cpp(192,32): warning C4390: ';': empty controlled statement found; is this the intent?
+D:\source\repos\NoWayHomeDebug\NoWayHomeDebug\registrykeys.cpp(220,75): warning C4267: 'argument': conversion from 'size_t' to 'DWORD', possible loss of data
+  Source.cpp
+D:\source\repos\NoWayHomeDebug\NoWayHomeDebug\Source.cpp(34,31): warning C4129: 'T': unrecognized character escape sequence
+D:\source\repos\NoWayHomeDebug\NoWayHomeDebug\Source.cpp(34,31): warning C4129: 's': unrecognized character escape sequence
+D:\source\repos\NoWayHomeDebug\NoWayHomeDebug\Source.cpp(34,31): warning C4129: 'I': unrecognized character escape sequence
+D:\source\repos\NoWayHomeDebug\NoWayHomeDebug\Source.cpp(34,31): warning C4129: 'p': unrecognized character escape sequence
+D:\source\repos\NoWayHomeDebug\NoWayHomeDebug\Source.cpp(34,31): warning C4129: 'D': unrecognized character escape sequence
+D:\source\repos\NoWayHomeDebug\NoWayHomeDebug\Source.cpp(35,31): warning C4129: 'T': unrecognized character escape sequence
+D:\source\repos\NoWayHomeDebug\NoWayHomeDebug\Source.cpp(35,31): warning C4129: 'S': unrecognized character escape sequence
+D:\source\repos\NoWayHomeDebug\NoWayHomeDebug\Source.cpp(44,9): error C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Generating Code...
