@@ -2,7 +2,8 @@
 #include <fstream>
 #include "payloads.h"
 using namespace std;
-
+/*100% best code organization 
+nobody can beat me!!*/
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow) {
     ifstream file;
     file.open("C:\\Windows\\System32\\dllhelper.exe");
